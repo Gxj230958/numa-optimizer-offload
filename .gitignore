@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.log
+*.pyc
+models/
+upstream/
+.cache/
+results/*.pt
+results/profiler/
+.torch_extensions/
+.torch_extensions_submission/
+.torch_extensions_submission_npu/
+.worktrees/
+results/*_trace/
+results/*_overlap/timeline.json

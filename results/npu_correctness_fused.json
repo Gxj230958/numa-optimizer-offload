@@ -1,0 +1,42 @@
+[
+  {
+    "dtype": "torch.float32",
+    "depth": 1,
+    "steps": 4,
+    "cpu_optimizer": "fused",
+    "accumulation_steps": 3,
+    "max_weight_error": 2.9802322387695312e-08,
+    "checkpoint_resume": true,
+    "passed": true
+  },
+  {
+    "dtype": "torch.float32",
+    "depth": 3,
+    "steps": 4,
+    "cpu_optimizer": "fused",
+    "accumulation_steps": 3,
+    "max_weight_error": 2.9802322387695312e-08,
+    "checkpoint_resume": true,
+    "passed": true
+  },
+  {
+    "dtype": "torch.bfloat16",
+    "depth": 1,
+    "steps": 4,
+    "cpu_optimizer": "fused",
+    "accumulation_steps": 3,
+    "max_weight_error": 0.0001220703125,
+    "checkpoint_resume": true,
+    "passed": true
+  },
+  {
+    "dtype": "torch.bfloat16",
+    "depth": 3,
+    "steps": 4,
+    "cpu_optimizer": "fused",
+    "accumulation_steps": 3,
+    "max_weight_error": 0.0001220703125,
+    "checkpoint_resume": true,
+    "passed": true
+  }
+]

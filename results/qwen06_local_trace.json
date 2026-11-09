@@ -1,0 +1,69 @@
+{
+  "config": {
+    "model": "../.cache/models/Qwen3-0.6B",
+    "mode": "pipeline",
+    "cpu_optimizer": "fused",
+    "bucket_mb": 32.0,
+    "depth": 2,
+    "sequence": 128,
+    "batch": 1,
+    "accumulation": 2,
+    "steps": 2,
+    "warmup": 1,
+    "threads": 4,
+    "cpu_list": "0,1,2,3,4,5,6,7",
+    "seed": 123,
+    "random_init": false,
+    "profile": true,
+    "output": "results/qwen06_local_trace.json"
+  },
+  "torch": "2.9.0+cpu",
+  "torch_npu": "2.9.0.post1+gitdc51c2d",
+  "parameter_count": 596049920,
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "training_inputs": "seeded synthetic token IDs",
+  "steps": [
+    {
+      "step": 0,
+      "warmup": true,
+      "step_ms": 1964.3122060224414,
+      "forward_backward_ms": 602.7099089697003,
+      "optimizer_ms": 1361.602297052741,
+      "peak_npu_bytes": 3647769600,
+      "cpu_max_rss_kib": 8940220,
+      "loss": 13.96493148803711,
+      "grad_norm": 83.29878997802734
+    },
+    {
+      "step": 1,
+      "warmup": false,
+      "step_ms": 1290.65902531147,
+      "forward_backward_ms": 197.0684416592121,
+      "optimizer_ms": 1093.590583652258,
+      "peak_npu_bytes": 3647769600,
+      "cpu_max_rss_kib": 9172600,
+      "loss": 13.317167282104492,
+      "grad_norm": 53.113807678222656
+    },
+    {
+      "step": 2,
+      "warmup": false,
+      "step_ms": 1165.7269280403852,
+      "forward_backward_ms": 182.50273820012808,
+      "optimizer_ms": 983.2241898402572,
+      "peak_npu_bytes": 3647769600,
+      "cpu_max_rss_kib": 9175848,
+      "loss": 12.567180633544922,
+      "grad_norm": 24.4536075592041
+    }
+  ]
+}

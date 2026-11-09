@@ -1,0 +1,62 @@
+{
+  "source_revision": "1a956270f42fbe7ffa485fdff45499eb77318469",
+  "pairs": [
+    {
+      "seed": 700,
+      "base": {
+        "step_ms": 729.2176401242614,
+        "optimizer_ms": 574.3111413903534,
+        "peak_npu_gib": 3.7639107704162598,
+        "peak_cpu_gib": 8.576602935791016
+      },
+      "gil": {
+        "step_ms": 636.8512525223196,
+        "optimizer_ms": 483.66519529372454,
+        "peak_npu_gib": 3.7639107704162598,
+        "peak_cpu_gib": 8.575634002685547
+      },
+      "step_speedup": 1.145036046072163,
+      "max_loss_difference": 4.76837158203125e-07,
+      "max_gradient_norm_difference": 0.0
+    },
+    {
+      "seed": 701,
+      "base": {
+        "step_ms": 720.7916830666363,
+        "optimizer_ms": 569.2531052045524,
+        "peak_npu_gib": 3.7639107704162598,
+        "peak_cpu_gib": 8.572105407714844
+      },
+      "gil": {
+        "step_ms": 626.2899106368423,
+        "optimizer_ms": 470.1992655172944,
+        "peak_npu_gib": 3.7639107704162598,
+        "peak_cpu_gib": 8.576168060302734
+      },
+      "step_speedup": 1.1508914175764065,
+      "max_loss_difference": 4.76837158203125e-07,
+      "max_gradient_norm_difference": 0.0
+    },
+    {
+      "seed": 702,
+      "base": {
+        "step_ms": 723.1284319423139,
+        "optimizer_ms": 571.1261052638292,
+        "peak_npu_gib": 3.7639107704162598,
+        "peak_cpu_gib": 8.570625305175781
+      },
+      "gil": {
+        "step_ms": 625.2982737496495,
+        "optimizer_ms": 473.5697046853602,
+        "peak_npu_gib": 3.7639107704162598,
+        "peak_cpu_gib": 8.572616577148438
+      },
+      "step_speedup": 1.1564535875111541,
+      "max_loss_difference": 2.384185791015625e-07,
+      "max_gradient_norm_difference": 0.0
+    }
+  ],
+  "median_step_speedup": 1.1508914175764065,
+  "min_step_speedup": 1.145036046072163,
+  "max_step_speedup": 1.1564535875111541
+}

@@ -1,0 +1,1300 @@
+{
+  "traceEvents": [
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950012463.0,
+      "dur": 70418.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950011396.5,
+      "dur": 102184.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950118150.2,
+      "dur": 46952.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950127068.0,
+      "dur": 94195.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950224806.2,
+      "dur": 44269.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950168697.5,
+      "dur": 151793.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950324890.8,
+      "dur": 62497.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950335061.8,
+      "dur": 83123.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950390861.5,
+      "dur": 69809.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950421753.2,
+      "dur": 84193.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950463934.0,
+      "dur": 58791.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950509459.2,
+      "dur": 49718.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950525788.8,
+      "dur": 72395.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950562381.5,
+      "dur": 55669.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950621194.0,
+      "dur": 52983.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950605779.2,
+      "dur": 68781.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950678359.2,
+      "dur": 55581.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950679332.8,
+      "dur": 54787.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950737375.0,
+      "dur": 48451.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950745679.5,
+      "dur": 53739.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950788916.8,
+      "dur": 50207.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950802583.2,
+      "dur": 53580.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950847148.0,
+      "dur": 64232.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950859488.5,
+      "dur": 52680.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950915093.0,
+      "dur": 47612.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950916406.2,
+      "dur": 57754.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620950973804.2,
+      "dur": 62396.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620950990098.5,
+      "dur": 78597.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951049818.2,
+      "dur": 47856.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951100723.8,
+      "dur": 58105.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951085822.0,
+      "dur": 75292.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951164870.0,
+      "dur": 57286.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951166057.5,
+      "dur": 66181.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951235879.5,
+      "dur": 47723.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951234449.5,
+      "dur": 70213.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951307683.0,
+      "dur": 22867.25,
+      "args": {
+        "elements": 8847360
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951542774.5,
+      "dur": 32468.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951541601.2,
+      "dur": 48711.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951595912.5,
+      "dur": 34281.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951594758.5,
+      "dur": 50384.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951650680.2,
+      "dur": 39374.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951649504.2,
+      "dur": 40803.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951695582.0,
+      "dur": 44124.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951700746.0,
+      "dur": 79096.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951743157.5,
+      "dur": 43628.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951790026.5,
+      "dur": 32766.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951787954.5,
+      "dur": 52684.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951845780.5,
+      "dur": 51271.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951844484.8,
+      "dur": 56340.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951906078.8,
+      "dur": 33438.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951904713.5,
+      "dur": 49296.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620951959077.2,
+      "dur": 32775.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620951957705.5,
+      "dur": 57244.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952020070.2,
+      "dur": 32862.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952018643.2,
+      "dur": 62691.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952095192.8,
+      "dur": 36273.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952085179.8,
+      "dur": 57432.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952147934.5,
+      "dur": 32461.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952146577.2,
+      "dur": 48904.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952200987.0,
+      "dur": 37888.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952199207.0,
+      "dur": 39783.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952255705.0,
+      "dur": 34994.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952256943.8,
+      "dur": 73610.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952294059.5,
+      "dur": 36684.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952338517.2,
+      "dur": 37611.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952337263.8,
+      "dur": 39020.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952380803.0,
+      "dur": 59735.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952381624.2,
+      "dur": 62469.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952443605.0,
+      "dur": 38068.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952484835.8,
+      "dur": 32394.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952457930.0,
+      "dur": 146562.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952607327.8,
+      "dur": 17853.25,
+      "args": {
+        "elements": 8847360
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952821045.5,
+      "dur": 50149.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952819887.8,
+      "dur": 51543.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952875777.8,
+      "dur": 35535.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952880924.5,
+      "dur": 41448.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952914945.5,
+      "dur": 35769.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952930194.5,
+      "dur": 41170.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620952955244.8,
+      "dur": 42218.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620952974830.5,
+      "dur": 52116.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953001284.2,
+      "dur": 48945.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953030449.8,
+      "dur": 36555.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953069971.5,
+      "dur": 32687.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953064859.5,
+      "dur": 56076.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953126246.5,
+      "dur": 33176.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953124631.0,
+      "dur": 54183.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953184429.0,
+      "dur": 41432.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953182441.0,
+      "dur": 43726.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953230069.8,
+      "dur": 35469.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953237443.2,
+      "dur": 42431.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953268705.0,
+      "dur": 35731.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953307693.5,
+      "dur": 31908.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953290039.8,
+      "dur": 60582.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953355903.2,
+      "dur": 33256.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953354345.8,
+      "dur": 58746.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953416801.8,
+      "dur": 42186.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953418114.2,
+      "dur": 41217.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953465802.0,
+      "dur": 37354.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953506409.0,
+      "dur": 40950.5,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953467059.0,
+      "dur": 87364.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953559597.5,
+      "dur": 34139.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953558163.8,
+      "dur": 60404.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953621944.2,
+      "dur": 63325.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953633776.5,
+      "dur": 62275.0,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953692345.8,
+      "dur": 36044.75,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953699011.5,
+      "dur": 40217.25,
+      "args": {
+        "elements": 16777216
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505042,
+      "ts": 1793620953742497.0,
+      "dur": 17839.75,
+      "args": {
+        "elements": 8847360
+      }
+    },
+    {
+      "name": "CPU AdamW bucket",
+      "ph": "X",
+      "cat": "optimizer",
+      "pid": 2502707,
+      "tid": 2505041,
+      "ts": 1793620953741885.5,
+      "dur": 50190.5,
+      "args": {
+        "elements": 16777216
+      }
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "python": "3.11.14",
+  "kernel": "5.15.0-119-generic",
+  "cpu": {
+    "Architecture": "x86_64",
+    "CPU(s)": "192",
+    "Model name": "Intel(R) Xeon(R) Platinum 8468",
+    "Thread(s) per core": "2",
+    "Core(s) per socket": "48",
+    "Socket(s)": "2",
+    "NUMA node(s)": "2",
+    "NUMA node0 CPU(s)": "0-47,96-143",
+    "NUMA node1 CPU(s)": "48-95,144-191"
+  },
+  "packages": {
+    "torch": "2.9.0+cpu",
+    "torch-npu": "2.9.0.post1+gitdc51c2d",
+    "transformers": "4.57.6",
+    "deepspeed": "0.19.9",
+    "numpy": "1.26.4",
+    "matplotlib": "3.11.2"
+  },
+  "accelerator": {
+    "model": "Ascend 910B2C",
+    "physical_card": 10,
+    "hbm_gib": 64,
+    "pci_device": "0000:48:00.0",
+    "numa_node": 0,
+    "npu_smi_version": "25.0.rc1.1",
+    "cann_version": "8.5.1",
+    "cann_environment": "/usr/local/Ascend/cann/set_env.sh",
+    "pcie_link": {
+      "source": "/sys/bus/pci/devices/0000:48:00.0",
+      "current_link_speed": "32.0 GT/s PCIe",
+      "current_link_width": 8,
+      "max_link_speed": "32.0 GT/s PCIe",
+      "max_link_width": 16
+    }
+  },
+  "models": {
+    "0.6B": {
+      "repository": "https://modelscope.cn/models/Qwen/Qwen3-0.6B",
+      "files": [
+        {
+          "Path": "LICENSE",
+          "Revision": "09b42cad3d112e832108974449ccb5e8e0f5b5d1",
+          "Size": 11343
+        },
+        {
+          "Path": "config.json",
+          "Revision": "0ce186d90797c4c5cfefb0d3695517b37d02dd3a",
+          "Size": 726
+        },
+        {
+          "Path": "configuration.json",
+          "Revision": "0ce186d90797c4c5cfefb0d3695517b37d02dd3a",
+          "Size": 73
+        },
+        {
+          "Path": "generation_config.json",
+          "Revision": "0ce186d90797c4c5cfefb0d3695517b37d02dd3a",
+          "Size": 239
+        },
+        {
+          "Path": "merges.txt",
+          "Revision": "0ce186d90797c4c5cfefb0d3695517b37d02dd3a",
+          "Size": 1671853
+        },
+        {
+          "Path": "tokenizer.json",
+          "Revision": "0ce186d90797c4c5cfefb0d3695517b37d02dd3a",
+          "Size": 11422654
+        },
+        {
+          "Path": "tokenizer_config.json",
+          "Revision": "da990c4d7e88f0c46f028e7a117cd7bd9b405958",
+          "Size": 9732
+        },
+        {
+          "Path": "vocab.json",
+          "Revision": "0ce186d90797c4c5cfefb0d3695517b37d02dd3a",
+          "Size": 2776833
+        },
+        {
+          "Path": "model.safetensors",
+          "Revision": "d033240f3f8fbdda767f6c43ba6d856b6871eaa6",
+          "Size": 1503300328
+        }
+      ]
+    },
+    "1.7B": {
+      "repository": "https://modelscope.cn/models/Qwen/Qwen3-1.7B",
+      "files": [
+        {
+          "Path": "LICENSE",
+          "Revision": "4855588ea1a12789f2e965e5f52a9e4a24c94b2a",
+          "Size": 11343
+        },
+        {
+          "Path": "config.json",
+          "Revision": "ba16748358494dc16019aa354b05b6a175b67ff5",
+          "Size": 726
+        },
+        {
+          "Path": "configuration.json",
+          "Revision": "ba16748358494dc16019aa354b05b6a175b67ff5",
+          "Size": 73
+        },
+        {
+          "Path": "generation_config.json",
+          "Revision": "ba16748358494dc16019aa354b05b6a175b67ff5",
+          "Size": 239
+        },
+        {
+          "Path": "merges.txt",
+          "Revision": "ba16748358494dc16019aa354b05b6a175b67ff5",
+          "Size": 1671853
+        },
+        {
+          "Path": "model.safetensors.index.json",
+          "Revision": "ba16748358494dc16019aa354b05b6a175b67ff5",
+          "Size": 25605
+        },
+        {
+          "Path": "tokenizer.json",
+          "Revision": "ba16748358494dc16019aa354b05b6a175b67ff5",
+          "Size": 11422654
+        },
+        {
+          "Path": "tokenizer_config.json",
+          "Revision": "c230923b64efe6d30f13552ace594b9578fab252",
+          "Size": 9732
+        },
+        {
+          "Path": "vocab.json",
+          "Revision": "ba16748358494dc16019aa354b05b6a175b67ff5",
+          "Size": 2776833
+        },
+        {
+          "Path": "model-00001-of-00002.safetensors",
+          "Revision": "980712f58bdf09497308d37d0e30b535064cde04",
+          "Size": 3441185608
+        },
+        {
+          "Path": "model-00002-of-00002.safetensors",
+          "Revision": "980712f58bdf09497308d37d0e30b535064cde04",
+          "Size": 622329984
+        }
+      ]
+    },
+    "4B": {
+      "repository": "https://modelscope.cn/models/Qwen/Qwen3-4B",
+      "files": [
+        {
+          "Path": "LICENSE",
+          "Revision": "2c54d5a09e7e92d4f5126b92a5a457448c9593e6",
+          "Size": 11343
+        },
+        {
+          "Path": "config.json",
+          "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+          "Size": 726
+        },
+        {
+          "Path": "configuration.json",
+          "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+          "Size": 73
+        },
+        {
+          "Path": "generation_config.json",
+          "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+          "Size": 239
+        },
+        {
+          "Path": "merges.txt",
+          "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+          "Size": 1671853
+        },
+        {
+          "Path": "model.safetensors.index.json",
+          "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+          "Size": 32819
+        },
+        {
+          "Path": "tokenizer.json",
+          "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+          "Size": 11422654
+        },
+        {
+          "Path": "tokenizer_config.json",
+          "Revision": "e3b70dd031653712ca809c65c55c4cce32370304",
+          "Size": 9732
+        },
+        {
+          "Path": "vocab.json",
+          "Revision": "1020529f26f052db5a3de491ec5da8bae6173f8f",
+          "Size": 2776833
+        },
+        {
+          "Path": "model-00001-of-00003.safetensors",
+          "Revision": "8cd0101f70cac4f1efcebc979faf483558e39297",
+          "Size": 3957900840
+        },
+        {
+          "Path": "model-00002-of-00003.safetensors",
+          "Revision": "8cd0101f70cac4f1efcebc979faf483558e39297",
+          "Size": 3987450520
+        },
+        {
+          "Path": "model-00003-of-00003.safetensors",
+          "Revision": "8cd0101f70cac4f1efcebc979faf483558e39297",
+          "Size": 99630640
+        }
+      ]
+    }
+  },
+  "data": {
+    "source": "https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v2.0.json",
+    "calibration_articles": 16,
+    "evaluation_articles": 19,
+    "tokenizer": "Qwen/Qwen3-0.6B"
+  },
+  "deepspeed_public_revision": "1a956270f42fbe7ffa485fdff45499eb77318469",
+  "cpu_affinity": {
+    "local": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "remote": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ]
+  }
+}

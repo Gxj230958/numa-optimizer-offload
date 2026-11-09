@@ -1,0 +1,13 @@
+model,mode,largest_completed_sequence,first_out_of_memory_sequence,capacity_bound,batch,accumulation
+Qwen3-0.6B,resident,2048,4096,"[2048, 4096)",1,2
+Qwen3-0.6B,sync,2048,4096,"[2048, 4096)",1,2
+Qwen3-0.6B,pipeline,2048,4096,"[2048, 4096)",1,2
+Qwen3-0.6B,zero,2048,4096,"[2048, 4096)",1,2
+Qwen3-1.7B,resident,2048,4096,"[2048, 4096)",1,2
+Qwen3-1.7B,sync,2048,4096,"[2048, 4096)",1,2
+Qwen3-1.7B,pipeline,2048,4096,"[2048, 4096)",1,2
+Qwen3-1.7B,zero,2048,4096,"[2048, 4096)",1,2
+Qwen3-4B,resident,,256,<256,1,2
+Qwen3-4B,sync,2048,4096,"[2048, 4096)",1,2
+Qwen3-4B,pipeline,2048,4096,"[2048, 4096)",1,2
+Qwen3-4B,zero,2048,4096,"[2048, 4096)",1,2

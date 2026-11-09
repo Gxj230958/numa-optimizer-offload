@@ -1,0 +1,534 @@
+{
+  "protocol": {
+    "independent_runs": 33,
+    "measured_steps": 198,
+    "partition": "evaluation",
+    "frozen_configurations": true,
+    "memory_scope": "maximum across warmup and measured steps",
+    "finite_losses_gradients_and_times": true
+  },
+  "rows": [
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "pipeline",
+      "step_ms": 600.7619509473443,
+      "min_ms": 597.9964449070394,
+      "max_ms": 602.3480813018978,
+      "optimizer_ms": 453.93988862633705,
+      "peak_npu_gib": 3.7639107704162598,
+      "peak_reserved_gib": 4.681640625,
+      "peak_cpu_gib": 8.558067321777344,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen0.6B_pipeline_0.json",
+          "seed": 600,
+          "step_ms": 602.3480813018978,
+          "optimizer_ms": 455.69193502888083,
+          "peak_npu_gib": 3.7639107704162598,
+          "peak_reserved_gib": 4.681640625,
+          "peak_cpu_gib": 8.558067321777344,
+          "loss_start": 2.924732208251953,
+          "loss_end": 0.5103042125701904
+        },
+        {
+          "source": "results/evaluation_public/qwen0.6B_pipeline_1.json",
+          "seed": 601,
+          "step_ms": 597.9964449070394,
+          "optimizer_ms": 450.45597152784467,
+          "peak_npu_gib": 3.7639107704162598,
+          "peak_reserved_gib": 4.681640625,
+          "peak_cpu_gib": 8.55294418334961,
+          "loss_start": 3.4028000831604004,
+          "loss_end": 0.7635284662246704
+        },
+        {
+          "source": "results/evaluation_public/qwen0.6B_pipeline_2.json",
+          "seed": 602,
+          "step_ms": 600.7619509473443,
+          "optimizer_ms": 453.93988862633705,
+          "peak_npu_gib": 3.7639107704162598,
+          "peak_reserved_gib": 4.681640625,
+          "peak_cpu_gib": 8.553478240966797,
+          "loss_start": 3.2853498458862305,
+          "loss_end": 0.5856271982192993
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "resident",
+      "step_ms": 212.36265683546662,
+      "min_ms": 209.724057931453,
+      "max_ms": 212.9447301849723,
+      "optimizer_ms": 60.94392901286483,
+      "peak_npu_gib": 15.552765369415283,
+      "peak_reserved_gib": 21.193359375,
+      "peak_cpu_gib": 4.0372467041015625,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen0.6B_resident_0.json",
+          "seed": 600,
+          "step_ms": 212.9447301849723,
+          "optimizer_ms": 60.91074086725712,
+          "peak_npu_gib": 15.552765369415283,
+          "peak_reserved_gib": 21.193359375,
+          "peak_cpu_gib": 4.0372467041015625,
+          "loss_start": 2.9247326850891113,
+          "loss_end": 0.5062975287437439
+        },
+        {
+          "source": "results/evaluation_public/qwen0.6B_resident_1.json",
+          "seed": 601,
+          "step_ms": 212.36265683546662,
+          "optimizer_ms": 61.072387266904116,
+          "peak_npu_gib": 15.552765369415283,
+          "peak_reserved_gib": 21.193359375,
+          "peak_cpu_gib": 4.033557891845703,
+          "loss_start": 3.4028000831604004,
+          "loss_end": 0.7654318809509277
+        },
+        {
+          "source": "results/evaluation_public/qwen0.6B_resident_2.json",
+          "seed": 602,
+          "step_ms": 209.724057931453,
+          "optimizer_ms": 60.94392901286483,
+          "peak_npu_gib": 15.552765369415283,
+          "peak_reserved_gib": 21.193359375,
+          "peak_cpu_gib": 4.034091949462891,
+          "loss_start": 3.2853498458862305,
+          "loss_end": 0.5815005302429199
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "sync",
+      "step_ms": 859.1279219835997,
+      "min_ms": 848.141327034682,
+      "max_ms": 883.3389021456242,
+      "optimizer_ms": 712.7123358659446,
+      "peak_npu_gib": 3.7639107704162598,
+      "peak_reserved_gib": 4.681640625,
+      "peak_cpu_gib": 8.559898376464844,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen0.6B_sync_0.json",
+          "seed": 600,
+          "step_ms": 883.3389021456242,
+          "optimizer_ms": 736.9768596254289,
+          "peak_npu_gib": 3.7639107704162598,
+          "peak_reserved_gib": 4.681640625,
+          "peak_cpu_gib": 8.558841705322266,
+          "loss_start": 2.924732208251953,
+          "loss_end": 0.5103042125701904
+        },
+        {
+          "source": "results/evaluation_public/qwen0.6B_sync_1.json",
+          "seed": 601,
+          "step_ms": 859.1279219835997,
+          "optimizer_ms": 712.7123358659446,
+          "peak_npu_gib": 3.7639107704162598,
+          "peak_reserved_gib": 4.681640625,
+          "peak_cpu_gib": 8.558578491210938,
+          "loss_start": 3.4028005599975586,
+          "loss_end": 0.7635284662246704
+        },
+        {
+          "source": "results/evaluation_public/qwen0.6B_sync_2.json",
+          "seed": 602,
+          "step_ms": 848.141327034682,
+          "optimizer_ms": 695.9489691071212,
+          "peak_npu_gib": 3.7639107704162598,
+          "peak_reserved_gib": 4.681640625,
+          "peak_cpu_gib": 8.559898376464844,
+          "loss_start": 3.2853500843048096,
+          "loss_end": 0.5856271386146545
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "zero",
+      "step_ms": 749.0990487858653,
+      "min_ms": 740.6286192126572,
+      "max_ms": 763.5391061194241,
+      "optimizer_ms": 181.0065060853958,
+      "peak_npu_gib": 2.881199359893799,
+      "peak_reserved_gib": 4.7421875,
+      "peak_cpu_gib": 6.270969390869141,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen0.6B_zero_0.json",
+          "seed": 600,
+          "step_ms": 763.5391061194241,
+          "optimizer_ms": 181.0065060853958,
+          "peak_npu_gib": 2.881199359893799,
+          "peak_reserved_gib": 4.7421875,
+          "peak_cpu_gib": 6.270969390869141,
+          "loss_start": 2.9247324466705322,
+          "loss_end": 0.5069743394851685
+        },
+        {
+          "source": "results/evaluation_public/qwen0.6B_zero_1.json",
+          "seed": 601,
+          "step_ms": 740.6286192126572,
+          "optimizer_ms": 180.632792878896,
+          "peak_npu_gib": 2.881199359893799,
+          "peak_reserved_gib": 4.7421875,
+          "peak_cpu_gib": 6.268562316894531,
+          "loss_start": 3.4028000831604004,
+          "loss_end": 0.7617239952087402
+        },
+        {
+          "source": "results/evaluation_public/qwen0.6B_zero_2.json",
+          "seed": 602,
+          "step_ms": 749.0990487858653,
+          "optimizer_ms": 183.90856217592955,
+          "peak_npu_gib": 2.881199359893799,
+          "peak_reserved_gib": 4.7421875,
+          "peak_cpu_gib": 6.2700347900390625,
+          "loss_start": 3.2853498458862305,
+          "loss_end": 0.5887329578399658
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "pipeline",
+      "step_ms": 1526.0051493532956,
+      "min_ms": 1490.54139200598,
+      "max_ms": 1562.8206599503756,
+      "optimizer_ms": 1338.663480244577,
+      "peak_npu_gib": 8.914035320281982,
+      "peak_reserved_gib": 10.654296875,
+      "peak_cpu_gib": 21.139522552490234,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen1.7B_pipeline_0.json",
+          "seed": 600,
+          "step_ms": 1562.8206599503756,
+          "optimizer_ms": 1379.56233182922,
+          "peak_npu_gib": 8.914035320281982,
+          "peak_reserved_gib": 10.654296875,
+          "peak_cpu_gib": 21.13665008544922,
+          "loss_start": 2.6902170181274414,
+          "loss_end": 0.5951735973358154
+        },
+        {
+          "source": "results/evaluation_public/qwen1.7B_pipeline_1.json",
+          "seed": 601,
+          "step_ms": 1490.54139200598,
+          "optimizer_ms": 1307.6315098442137,
+          "peak_npu_gib": 8.914035320281982,
+          "peak_reserved_gib": 10.654296875,
+          "peak_cpu_gib": 21.137298583984375,
+          "loss_start": 3.150777816772461,
+          "loss_end": 1.0345367193222046
+        },
+        {
+          "source": "results/evaluation_public/qwen1.7B_pipeline_2.json",
+          "seed": 602,
+          "step_ms": 1526.0051493532956,
+          "optimizer_ms": 1338.663480244577,
+          "peak_npu_gib": 8.914035320281982,
+          "peak_reserved_gib": 10.654296875,
+          "peak_cpu_gib": 21.139522552490234,
+          "loss_start": 2.8965930938720703,
+          "loss_end": 0.6433330774307251
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "resident",
+      "step_ms": 353.47910271957517,
+      "min_ms": 351.7351420596242,
+      "max_ms": 354.4477471150458,
+      "optimizer_ms": 170.2928189188242,
+      "peak_npu_gib": 44.87718677520752,
+      "peak_reserved_gib": 60.08984375,
+      "peak_cpu_gib": 8.223247528076172,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen1.7B_resident_0.json",
+          "seed": 600,
+          "step_ms": 353.47910271957517,
+          "optimizer_ms": 170.2928189188242,
+          "peak_npu_gib": 44.87718677520752,
+          "peak_reserved_gib": 60.08984375,
+          "peak_cpu_gib": 8.221744537353516,
+          "loss_start": 2.6902167797088623,
+          "loss_end": 0.596669614315033
+        },
+        {
+          "source": "results/evaluation_public/qwen1.7B_resident_1.json",
+          "seed": 601,
+          "step_ms": 351.7351420596242,
+          "optimizer_ms": 170.21983256563544,
+          "peak_npu_gib": 44.87718677520752,
+          "peak_reserved_gib": 60.08984375,
+          "peak_cpu_gib": 8.223247528076172,
+          "loss_start": 3.150778293609619,
+          "loss_end": 1.0596095323562622
+        },
+        {
+          "source": "results/evaluation_public/qwen1.7B_resident_2.json",
+          "seed": 602,
+          "step_ms": 354.4477471150458,
+          "optimizer_ms": 170.3173965215683,
+          "peak_npu_gib": 44.87718677520752,
+          "peak_reserved_gib": 60.08984375,
+          "peak_cpu_gib": 8.221992492675781,
+          "loss_start": 2.8965933322906494,
+          "loss_end": 0.654260516166687
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "sync",
+      "step_ms": 2313.0356376059353,
+      "min_ms": 2274.4465209543705,
+      "max_ms": 2368.6933484859765,
+      "optimizer_ms": 2126.4485414139926,
+      "peak_npu_gib": 8.914035320281982,
+      "peak_reserved_gib": 10.654296875,
+      "peak_cpu_gib": 21.125946044921875,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen1.7B_sync_0.json",
+          "seed": 600,
+          "step_ms": 2274.4465209543705,
+          "optimizer_ms": 2087.732463609427,
+          "peak_npu_gib": 8.914035320281982,
+          "peak_reserved_gib": 10.654296875,
+          "peak_cpu_gib": 21.125946044921875,
+          "loss_start": 2.690216541290283,
+          "loss_end": 0.5951736569404602
+        },
+        {
+          "source": "results/evaluation_public/qwen1.7B_sync_1.json",
+          "seed": 601,
+          "step_ms": 2368.6933484859765,
+          "optimizer_ms": 2181.2608395703137,
+          "peak_npu_gib": 8.914035320281982,
+          "peak_reserved_gib": 10.654296875,
+          "peak_cpu_gib": 21.121109008789062,
+          "loss_start": 3.150777816772461,
+          "loss_end": 1.0345368385314941
+        },
+        {
+          "source": "results/evaluation_public/qwen1.7B_sync_2.json",
+          "seed": 602,
+          "step_ms": 2313.0356376059353,
+          "optimizer_ms": 2126.4485414139926,
+          "peak_npu_gib": 8.914035320281982,
+          "peak_reserved_gib": 10.654296875,
+          "peak_cpu_gib": 21.123985290527344,
+          "loss_start": 2.8965930938720703,
+          "loss_end": 0.6433330774307251
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "zero",
+      "step_ms": 1535.730631556362,
+      "min_ms": 1533.2775232382119,
+      "max_ms": 1537.7289871685207,
+      "optimizer_ms": 514.8010081611574,
+      "peak_npu_gib": 6.1847310066223145,
+      "peak_reserved_gib": 11.212890625,
+      "peak_cpu_gib": 14.644172668457031,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen1.7B_zero_0.json",
+          "seed": 600,
+          "step_ms": 1533.2775232382119,
+          "optimizer_ms": 514.8010081611574,
+          "peak_npu_gib": 6.1847310066223145,
+          "peak_reserved_gib": 11.212890625,
+          "peak_cpu_gib": 14.644172668457031,
+          "loss_start": 2.6902167797088623,
+          "loss_end": 0.6055663824081421
+        },
+        {
+          "source": "results/evaluation_public/qwen1.7B_zero_1.json",
+          "seed": 601,
+          "step_ms": 1535.730631556362,
+          "optimizer_ms": 514.5759475417435,
+          "peak_npu_gib": 6.1847310066223145,
+          "peak_reserved_gib": 11.212890625,
+          "peak_cpu_gib": 14.641067504882812,
+          "loss_start": 3.150778293609619,
+          "loss_end": 1.0467658042907715
+        },
+        {
+          "source": "results/evaluation_public/qwen1.7B_zero_2.json",
+          "seed": 602,
+          "step_ms": 1537.7289871685207,
+          "optimizer_ms": 516.0694941878319,
+          "peak_npu_gib": 6.1847310066223145,
+          "peak_reserved_gib": 11.212890625,
+          "peak_cpu_gib": 14.640472412109375,
+          "loss_start": 2.8965933322906494,
+          "loss_end": 0.6627955436706543
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "pipeline",
+      "step_ms": 3414.98706350103,
+      "min_ms": 3398.2736044563353,
+      "max_ms": 3461.2994119524956,
+      "optimizer_ms": 3112.693707458675,
+      "peak_npu_gib": 18.787744522094727,
+      "peak_reserved_gib": 21.83203125,
+      "peak_cpu_gib": 46.87081527709961,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen4B_pipeline_0.json",
+          "seed": 600,
+          "step_ms": 3414.98706350103,
+          "optimizer_ms": 3112.693707458675,
+          "peak_npu_gib": 18.787744522094727,
+          "peak_reserved_gib": 21.83203125,
+          "peak_cpu_gib": 46.87081527709961,
+          "loss_start": 2.6857259273529053,
+          "loss_end": 0.2952408492565155
+        },
+        {
+          "source": "results/evaluation_public/qwen4B_pipeline_1.json",
+          "seed": 601,
+          "step_ms": 3398.2736044563353,
+          "optimizer_ms": 3102.280469611287,
+          "peak_npu_gib": 18.787744522094727,
+          "peak_reserved_gib": 21.83203125,
+          "peak_cpu_gib": 46.870323181152344,
+          "loss_start": 2.954663038253784,
+          "loss_end": 0.1528777778148651
+        },
+        {
+          "source": "results/evaluation_public/qwen4B_pipeline_2.json",
+          "seed": 602,
+          "step_ms": 3461.2994119524956,
+          "optimizer_ms": 3162.416537757963,
+          "peak_npu_gib": 18.787744522094727,
+          "peak_reserved_gib": 21.83203125,
+          "peak_cpu_gib": 46.86438751220703,
+          "loss_start": 2.7662127017974854,
+          "loss_end": 0.1845349222421646
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "sync",
+      "step_ms": 5429.11496385932,
+      "min_ms": 5169.434344861656,
+      "max_ms": 5485.815824009478,
+      "optimizer_ms": 5129.982620943338,
+      "peak_npu_gib": 18.787744522094727,
+      "peak_reserved_gib": 21.83203125,
+      "peak_cpu_gib": 46.85639953613281,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen4B_sync_0.json",
+          "seed": 600,
+          "step_ms": 5429.11496385932,
+          "optimizer_ms": 5129.982620943338,
+          "peak_npu_gib": 18.787744522094727,
+          "peak_reserved_gib": 21.83203125,
+          "peak_cpu_gib": 46.85639953613281,
+          "loss_start": 2.6857261657714844,
+          "loss_end": 0.2952408492565155
+        },
+        {
+          "source": "results/evaluation_public/qwen4B_sync_1.json",
+          "seed": 601,
+          "step_ms": 5485.815824009478,
+          "optimizer_ms": 5188.973535317928,
+          "peak_npu_gib": 18.787744522094727,
+          "peak_reserved_gib": 21.83203125,
+          "peak_cpu_gib": 46.854434967041016,
+          "loss_start": 2.9546632766723633,
+          "loss_end": 0.1528777778148651
+        },
+        {
+          "source": "results/evaluation_public/qwen4B_sync_2.json",
+          "seed": 602,
+          "step_ms": 5169.434344861656,
+          "optimizer_ms": 4867.957219481468,
+          "peak_npu_gib": 18.787744522094727,
+          "peak_reserved_gib": 21.83203125,
+          "peak_cpu_gib": 46.8536491394043,
+          "loss_start": 2.7662127017974854,
+          "loss_end": 0.18453489243984222
+        }
+      ]
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "zero",
+      "step_ms": 3146.870565135032,
+      "min_ms": 3144.260671455413,
+      "max_ms": 3147.8107846342027,
+      "optimizer_ms": 1195.251688361168,
+      "peak_npu_gib": 16.258317470550537,
+      "peak_reserved_gib": 24.3984375,
+      "peak_cpu_gib": 31.79458999633789,
+      "runs": [
+        {
+          "source": "results/evaluation_public/qwen4B_zero_0.json",
+          "seed": 600,
+          "step_ms": 3147.8107846342027,
+          "optimizer_ms": 1193.6273812316358,
+          "peak_npu_gib": 16.258317470550537,
+          "peak_reserved_gib": 24.3984375,
+          "peak_cpu_gib": 31.79458999633789,
+          "loss_start": 2.6857261657714844,
+          "loss_end": 0.3001832067966461
+        },
+        {
+          "source": "results/evaluation_public/qwen4B_zero_1.json",
+          "seed": 601,
+          "step_ms": 3146.870565135032,
+          "optimizer_ms": 1195.251688361168,
+          "peak_npu_gib": 16.258317470550537,
+          "peak_reserved_gib": 24.3984375,
+          "peak_cpu_gib": 31.79378890991211,
+          "loss_start": 2.954663038253784,
+          "loss_end": 0.15660282969474792
+        },
+        {
+          "source": "results/evaluation_public/qwen4B_zero_2.json",
+          "seed": 602,
+          "step_ms": 3144.260671455413,
+          "optimizer_ms": 1196.6157024726272,
+          "peak_npu_gib": 16.258317470550537,
+          "peak_reserved_gib": 24.3984375,
+          "peak_cpu_gib": 31.793659210205078,
+          "loss_start": 2.7662127017974854,
+          "loss_end": 0.18174973130226135
+        }
+      ]
+    }
+  ],
+  "comparisons": {
+    "Qwen3-0.6B": {
+      "pipeline_speedup_over_resident": 0.3534888594402341,
+      "pipeline_speedup_over_sync": 1.4300638058532782,
+      "pipeline_speedup_over_zero": 1.2469149346169603
+    },
+    "Qwen3-1.7B": {
+      "pipeline_speedup_over_resident": 0.23163690035343312,
+      "pipeline_speedup_over_sync": 1.5157456307314394,
+      "pipeline_speedup_over_zero": 1.0063731647348555
+    },
+    "Qwen3-4B": {
+      "pipeline_speedup_over_sync": 1.5897907848275754,
+      "pipeline_speedup_over_zero": 0.9214882828601036
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "steps": 4,
+  "accumulation": 3,
+  "dtype": "bfloat16",
+  "max_weight_errors": [
+    0.0001220703125,
+    0.00048828125,
+    0.00048828125,
+    0.00048828125
+  ],
+  "passed": true
+}

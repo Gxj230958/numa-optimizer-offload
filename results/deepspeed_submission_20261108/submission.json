@@ -1,0 +1,106 @@
+{
+  "recorded_utc": "2026-11-08T11:40:16.590328+00:00",
+  "pr": "https://github.com/deepspeedai/DeepSpeed/pull/9035",
+  "draft": true,
+  "commit": "790e42bec3823c24f134f9280641dd94f39e061c",
+  "base": "02f7978481cb3d3297f111c02b16d768b890b256",
+  "performance_base": "1a956270f42fbe7ffa485fdff45499eb77318469",
+  "signed_off_by": "Xingjian Guo <222823329+Gxj230958@users.noreply.github.com>",
+  "software": {
+    "torch": "2.9.0+cpu",
+    "torch-npu": "2.9.0.post1+gitdc51c2d",
+    "deepspeed": "0.19.10+02f7978"
+  },
+  "hardware": {
+    "cpu": "2 x Intel Xeon Platinum 8468",
+    "accelerator": "Ascend 910B2C",
+    "card": 10,
+    "driver": "25.0.rc1.1",
+    "cann": "8.5.1"
+  },
+  "cpu_tests": {
+    "passed": 53,
+    "deselected": 57,
+    "elapsed_seconds": 193.09,
+    "exit_code": 0,
+    "log": "cpu_tests.log"
+  },
+  "precommit": {
+    "passed": true,
+    "exit_code": 0,
+    "log": "precommit.log"
+  },
+  "npu_reference_cases": [
+    {
+      "dtype": "torch.float32",
+      "depth": 1,
+      "steps": 4,
+      "cpu_optimizer": "deepspeed",
+      "accumulation_steps": 3,
+      "max_weight_error": 4.470348358154297e-08,
+      "checkpoint_resume": true,
+      "passed": true
+    },
+    {
+      "dtype": "torch.float32",
+      "depth": 3,
+      "steps": 4,
+      "cpu_optimizer": "deepspeed",
+      "accumulation_steps": 3,
+      "max_weight_error": 4.470348358154297e-08,
+      "checkpoint_resume": true,
+      "passed": true
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "depth": 1,
+      "steps": 4,
+      "cpu_optimizer": "deepspeed",
+      "accumulation_steps": 3,
+      "max_weight_error": 1.4901161193847656e-08,
+      "checkpoint_resume": true,
+      "passed": true
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "depth": 3,
+      "steps": 4,
+      "cpu_optimizer": "deepspeed",
+      "accumulation_steps": 3,
+      "max_weight_error": 1.4901161193847656e-08,
+      "checkpoint_resume": true,
+      "passed": true
+    }
+  ],
+  "zero_offload": {
+    "steps": 4,
+    "accumulation": 3,
+    "dtype": "bfloat16",
+    "max_weight_errors": [
+      0.0,
+      0.00048828125,
+      0.00048828125,
+      0.00048828125
+    ],
+    "passed": true
+  },
+  "ci_selection": {
+    "mode": "all",
+    "scope": "tests/unit/v1",
+    "reason": "changed csrc/adam/cpu_adam_impl.cpp"
+  },
+  "remote_ci": {
+    "dco_app": "success",
+    "modal_test_selection": "success",
+    "pull_request_workflows": "action_required",
+    "detail": "ci_workflows.json"
+  },
+  "commands": {
+    "cpu": "DS_ACCELERATOR=cpu TORCH_EXTENSIONS_DIR=\"$PWD/.torch_extensions_submission\" MAX_JOBS=1 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 PYTHONPATH=\"$PWD/.worktrees/deepspeed-cpu-adam/tests\" .venv/bin/python -m pytest .worktrees/deepspeed-cpu-adam/tests/unit/ops/adam/test_cpu_adam.py --confcutdir=.worktrees/deepspeed-cpu-adam/tests/unit/ops/adam -k \"test_cpu_adam_strict_state_updates or test_cpu_adam_concurrent_updates or test_cpu_adam_rejects_amsgrad or (test_cpu_optimizer_load_state_dict_keeps_state_dtype and not lion and not adagrad)\" -q",
+    "npu": "DS_ACCELERATOR=npu MAX_JOBS=1 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 TORCH_EXTENSIONS_DIR=\"$PWD/.torch_extensions_submission_npu\" bash ../scripts/run_npu.sh 10 .venv/bin/python validate_npu.py --cpu-optimizer deepspeed --output results/deepspeed_submission_20261108/npu_correctness.json",
+    "zero": "DS_ACCELERATOR=npu MAX_JOBS=1 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 TORCH_EXTENSIONS_DIR=\"$PWD/.torch_extensions_submission_npu\" bash ../scripts/run_npu.sh 10 .venv/bin/python validate_zero.py --output results/deepspeed_submission_20261108/zero_correctness.json",
+    "precommit": "pre-commit run --files csrc/adam/cpu_adam_impl.cpp tests/unit/ops/adam/test_cpu_adam.py",
+    "ci_selection": "python ci/tests_fetcher.py --base upstream/master",
+    "ci_explanation": "python ci/tests_fetcher.py --base upstream/master --explain"
+  }
+}

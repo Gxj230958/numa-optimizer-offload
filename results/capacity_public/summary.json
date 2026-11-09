@@ -1,0 +1,399 @@
+{
+  "grid": [
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192
+  ],
+  "batch": 1,
+  "accumulation": 2,
+  "precision": "BF16 model; FP32 AdamW master weights and moments",
+  "rows": [
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "resident",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen0.6B_resident_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_resident_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_resident_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_resident_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen0.6B_resident_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "sync",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen0.6B_sync_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_sync_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_sync_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_sync_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen0.6B_sync_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "pipeline",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen0.6B_pipeline_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_pipeline_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_pipeline_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_pipeline_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen0.6B_pipeline_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    },
+    {
+      "model": "Qwen3-0.6B",
+      "mode": "zero",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen0.6B_zero_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_zero_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_zero_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen0.6B_zero_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen0.6B_zero_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "resident",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen1.7B_resident_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_resident_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_resident_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_resident_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen1.7B_resident_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "sync",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen1.7B_sync_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_sync_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_sync_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_sync_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen1.7B_sync_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "pipeline",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen1.7B_pipeline_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_pipeline_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_pipeline_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_pipeline_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen1.7B_pipeline_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "mode": "zero",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen1.7B_zero_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_zero_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_zero_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen1.7B_zero_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen1.7B_zero_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "resident",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen4B_resident_s256.log"
+        }
+      ],
+      "largest_completed_sequence": null,
+      "first_out_of_memory_sequence": 256
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "sync",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen4B_sync_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen4B_sync_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen4B_sync_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen4B_sync_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen4B_sync_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "pipeline",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen4B_pipeline_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen4B_pipeline_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen4B_pipeline_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen4B_pipeline_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen4B_pipeline_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    },
+    {
+      "model": "Qwen3-4B",
+      "mode": "zero",
+      "runs": [
+        {
+          "sequence": 256,
+          "status": "completed",
+          "source": "results/evaluation_public/qwen4B_zero_0.json"
+        },
+        {
+          "sequence": 512,
+          "status": "completed",
+          "source": "results/capacity_public/qwen4B_zero_s512.json"
+        },
+        {
+          "sequence": 1024,
+          "status": "completed",
+          "source": "results/capacity_public/qwen4B_zero_s1024.json"
+        },
+        {
+          "sequence": 2048,
+          "status": "completed",
+          "source": "results/capacity_public/qwen4B_zero_s2048.json"
+        },
+        {
+          "sequence": 4096,
+          "status": "out_of_memory",
+          "source": "results/capacity_public/qwen4B_zero_s4096.log"
+        }
+      ],
+      "largest_completed_sequence": 2048,
+      "first_out_of_memory_sequence": 4096
+    }
+  ],
+  "verification": {
+    "model_method_pairs": 12,
+    "new_successful_runs": 33,
+    "reused_main_runs": 11,
+    "first_oom_records": 12,
+    "new_successful_updates": 132,
+    "finite_losses_gradients_and_times": true
+  }
+}

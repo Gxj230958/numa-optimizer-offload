@@ -1,0 +1,4 @@
+# Test selection for workflow 'modal-torch-latest'
+# decision: all -- changed shared/infra file(s) [csrc/adam/cpu_adam_impl.cpp] -> full suite
+
+(mode=all: running the full tests/unit/v1 suite)

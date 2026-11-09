@@ -1,0 +1,4 @@
+
+### MODE: all (changed shared/infra file(s) [csrc/adam/cpu_adam_impl.cpp] -> full suite) ###
+### 1 pytest target(s) -> ci/.test_selection/test_list.txt ###
+  tests/unit/v1

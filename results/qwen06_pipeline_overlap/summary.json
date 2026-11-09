@@ -1,0 +1,14 @@
+{
+  "cpu_busy_ms": 1944.022,
+  "pcie_dma_busy_ms": 156.8185,
+  "cpu_dma_overlap_ms": 81.08625,
+  "fraction_dma_overlapped_with_cpu": 0.5170706900014985,
+  "cpu_buckets": 72,
+  "pcie_dma_events": 1380,
+  "device_source": "results/qwen06_local_trace_trace/qwen36-tab--1a52725a315c-vo67kuu77p_2502707_20261102120229286_ascend_pt/ASCEND_PROFILER_OUTPUT/trace_view.json",
+  "cpu_source": "results/qwen06_local_trace.cpu_trace.json",
+  "profiled_steps": 2,
+  "profiled_step_ms": 2461.45425,
+  "pcie_dma_within_step_ms": 156.8185,
+  "fraction_step_with_dma": 0.0637096951934004
+}
